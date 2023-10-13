@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    
+    
+    
+}
+body{
+    min-height: 100vh;
+    background-color: aquamarine;
+    display: grid;
+    place-items: center;
+
+}
+
+.calculator {
+    background-color: rgb(136, 241, 190);
+    color: white;
+    width: 400px;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+}
+.top {
+    grid-column: 1 / 5;
+    background-color: rgb(166, 228, 216);
+    padding: 1.5rem;
+    font-size: 2rem;
+
+
+
+
+}
+    
