@@ -30,9 +30,20 @@ body{
     background-color: rgb(166, 228, 216);
     padding: 1.5rem;
     font-size: 2rem;
+    text-align: right;
+}
 
-
-
+.num {
+    border: 0;
+    padding: 1.5rem;
+    cursor: pointer;
+    
 
 }
+
+#cero {
+    color: #000;
+}
+
+
     
